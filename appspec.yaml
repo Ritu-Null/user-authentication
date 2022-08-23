@@ -5,6 +5,6 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-1:274201610284:task-definition/pension-authentication-890776:1"
         LoadBalancerInfo:
-          ContainerName: "users-authentication"
+          ContainerName: "authentication-890776"
           ContainerPort: "8089"
         PlatformVersion: "LATEST"
