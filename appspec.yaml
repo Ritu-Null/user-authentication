@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:274201610284:task-definition/users-authentication:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:274201610284:task-definition/pension-authentication-890776:1"
         LoadBalancerInfo:
           ContainerName: "users-authentication"
           ContainerPort: "8089"
