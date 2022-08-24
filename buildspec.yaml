@@ -9,7 +9,7 @@ phases:
     - aws --version
     - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 474007463914.dkr.ecr.us-east-1.amazonaws.com
     - IMAGE_NAME=authentication
-    - IMAGE_URI=474007463914.dkr.ecr.us-east-1.amazonaws.com/authentication
+    - IMAGE_URI=474007463914.dkr.ecr.us-east-1.amazonaws.com/authentication:latest
     - CONTAINER_NAME=authentication
   build:
     commands:
