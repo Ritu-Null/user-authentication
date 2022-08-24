@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:474007463914:task-definition/authentication-task:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:474007463914:task-definition/authentication-task:3"
         LoadBalancerInfo:
           ContainerName: "authentication"
           ContainerPort: "8089"
